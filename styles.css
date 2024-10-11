@@ -18,7 +18,7 @@ header {
 nav u1 {
     display: flex; /* use flexbox for layout */
     justify-content: space-around;
-    padding: 0;
+    padding:0;
     color: #da633f;
 }
 
