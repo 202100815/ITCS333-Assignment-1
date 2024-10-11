@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', 'Firefox 1';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 253, 255);
+    color: #da633f;
+
+}
+
+
+header {
+    background-color: #f2f3a0;
+    padding: 20px;
+    text-align: center ;
+}
+
+
+nav u1 {
+    display: flex; /* use flexbox for layout */
+    justify-content: space-around;
+    padding: 0;
+    color: #da633f;
+}
+
+nav u1 li:hover {
+    background-color: #7ab5dc; /* Change the hover color */
+    transform: scale(1.05); /* Add a slight scaling effect for emphasis */
+  }
+
+/* Main Content */
+main {
+color: rgb(40, 45, 147);
+padding: 20px;  
+}
+
+main p {
+    font-size: medium;
+    font-weight: bold;
+}
+
+footer {
+    color: aliceblue;
+    background-color: #7ab5dc;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
