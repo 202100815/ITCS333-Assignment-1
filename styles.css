@@ -11,22 +11,30 @@ body {
 header {
     background-color: #f2f3a0;
     padding: 20px;
-    text-align: center ;
+    text-align: center;
 }
 
 
-nav u1 {
+nav ul {
     display: flex; /* use flexbox for layout */
     justify-content: space-around;
     padding:0;
     color: #da633f;
 }
-
-nav u1 li:hover {
+nav ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a:hover {
     background-color: #7ab5dc; /* Change the hover color */
     transform: scale(1.05); /* Add a slight scaling effect for emphasis */
   }
-
+nav ul li a{
+    text-decoration: none;
+    color:bisque;
+    font-weight: bold;
+    transition: color 0.5s ease;
+}
 /* Main Content */
 main {
 color: rgb(40, 45, 147);
@@ -48,3 +56,10 @@ footer {
     left: 0;
     width: 100%;
   }
+@media (min-width: 786px) {
+    body{
+        background-color: #7ab5dc;
+        
+    }
+    
+}
